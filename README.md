@@ -9,7 +9,7 @@ An open-source toolkit for auditing how well websites are understood, discovered
 - JSON-LD / structured data
 - metadata and canonical URLs
 - content structure and citability signals
-- brand/entity consistency
+- brand and entity consistency
 - AI crawler and access readiness
 - citation and visibility signals
 - actionable recommendations with machine-readable output
@@ -51,11 +51,19 @@ pytest
 ruff check .
 ```
 
-## License and attribution
+## Features
 
-This repository is an adaptation of the MIT-licensed **GEO Audit / GEO Optimizer** project by its original authors. The original MIT license and required copyright notice are preserved in this repository.
+- Website-level AI visibility auditing
+- AI crawler and robots.txt analysis
+- llms.txt validation
+- Structured data and schema analysis
+- Metadata and content-quality checks
+- Brand/entity and citation-signal analysis
+- Machine-readable JSON reports
+- CLI workflow for local and CI usage
 
-Original project:
-https://github.com/NadeemAhmad3/GEO_Audit
+## License
 
-The code in this repository has been reorganized/rebranded for the **AI Visibility Auditor** project; this repository does not claim original authorship of the upstream code.
+This project is released under the MIT License. See [LICENSE](LICENSE) for the full license text.
+
+The project is based on and adapted from the GEO Audit codebase, with the implementation organized and rebranded as **AI Visibility Auditor**.
