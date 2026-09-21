@@ -1,4 +1,4 @@
-# AI Visibility Auditor
+# AI Visibility Auditor.
 
 An open-source toolkit for auditing how well websites are understood, discovered, and cited by AI-powered search and answer engines.
 
